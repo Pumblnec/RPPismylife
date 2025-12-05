@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: main 
 
       - name: Setup GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
